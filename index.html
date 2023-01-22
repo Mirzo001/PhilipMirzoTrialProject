@@ -5,9 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Philip and Mirzo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <h2>Hello!, world</h2>
+   
+    <div class="container">
+        <header>
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+          <div>
+            <label id="name-label" for="name"
+              >Name <input type="text" name="name" id="name" placeholder="Enter your name" required
+            /></label>
+          </div>
+          <div>
+            <label id="email-label" for="email"
+              >Email
+              <input type="email" name="email" id="email" placeholder="Enter your email" required
+            /></label>
+          </div>
+          <div>
+            <label id="number-label" for="number"
+              >Age (optional)
+              <input
+                type="number"
+                name="age"
+                id="number"
+                min="10"
+                max="99"
+                placeholder="Enter your age"
+            /></label>
+          </div>
+
+
 </body>
 </html>
