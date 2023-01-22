@@ -1,23 +1,35 @@
 * {
     box-sizing: border-box;
+    
   }
+
+  
   
   body {
     margin: 0;
     padding: 0;
     background-color: #3a3a3a;
     color: white;
+    background-image:url('image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
+  
+
   
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   form {
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
     align-items: center;
     gap: 20px;
     background-color:rgba(27, 27, 50, 0.8) ;
@@ -42,18 +54,29 @@
 
   #name {
     width: 100%;
+    height: 2.375rem;
+    border-radius: 8px;
   }
   
   #email {
     width: 100%;
+    height: 2.375rem;
+    border-radius: 8px;
+
   }
   
   #number {
     width: 100%;
+    height: 2.375rem;
+    border-radius: 8px;
+
   }
   
   #dropdown {
     width: 100%;
+    height: 2.375rem;
+    border-radius: 8px;
+
   }
   
   textarea {
@@ -61,3 +84,28 @@
     height: 200px;
     resize: none;
   }
+
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .options label {
+    font-weight: normal;
+  }
+  
+  .option {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #submit {
+    width: 200px;
+    color: white;
+    background-color: #3a3a3a;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
